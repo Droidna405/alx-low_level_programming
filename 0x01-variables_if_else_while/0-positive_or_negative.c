@@ -4,9 +4,9 @@
 /**
  * main - programme that checks if a number n is positive, zero or negative
  *
- * return - Zero
+ * Return: zero
  */
-int main(void)
+int main(void) 
 {
 int n;
 
