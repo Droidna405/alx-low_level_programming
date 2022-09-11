@@ -6,23 +6,22 @@
  * 
  * Return: zero 
 */
-int main(void)
+int main()
 {
 int n;
-int (1);
- 
+int i; 
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-1 = n % 10;
-
-if (1 > 5)
-{printf("Last digit of %d is %d and is greater than 5\n", n, 1);
+i = n % 10;
+if (i > 5)
+{printf("Last digit of %d is %d and is greater than 5\n", n, i);
 }
-else if (1 == 0)
-{printf("Last digit of %d is %d and is 0\n", 1);
+else if (i == 0)
+{printf("Last digit of %d is %d and is 0\n", i);
 }
-else if (1 < 6 && 1 ! = 0)
-{printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
+else if (i < 6 && i ! = 0)
+{printf("Last digit of %d is %d and is less than 6 and not 0\n", i, 1);
 }
 return (0);
 }
