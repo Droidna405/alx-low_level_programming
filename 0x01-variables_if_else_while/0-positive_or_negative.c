@@ -6,7 +6,7 @@
  *
  * return - Zero
  */
-int main(void)
+int main()
 {
   int n;
   srand(time(0));
