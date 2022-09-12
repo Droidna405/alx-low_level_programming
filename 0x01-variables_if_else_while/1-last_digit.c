@@ -2,26 +2,29 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints the last value of the number stored in the variable n
- * 
- * Return: zero 
+* main - print the last digit
+*
+* Return: zero
+*
 */
-int main()
-{
+int main(void)
 int n;
-int i; 
+int l;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-i = n % 10;
-if (i > 5)
-{printf("Last digit of %d is %d and is greater than 5\n", n, i);
+l = n % 10;
+
+if (1 > 5)
+{
+printf("Last digit of %d is %d and is greater than 5\n", n, l);
 }
-else if (i == 0)
-{printf("Last digit of %d is %d and is 0\n", i);
+else if (l == 0)
+{
+printf("Last digit of %d is %d and is 0\n", n, l);
 }
-else if (i < 6 && i ! = 0)
-{printf("Last digit of %d is %d and is less than 6 and not 0\n", i, 1);
+else
+{
+printf("Last digit of %d is %d and is less than 6 and not 0/n", n, l);
 }
 return (0);
-}
