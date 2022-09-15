@@ -9,7 +9,7 @@ int add(int x, int z)
 {
 return (x + z);
 {
-printf("\n");
+  _putchar('\n');
 }
 return (0);
 }
