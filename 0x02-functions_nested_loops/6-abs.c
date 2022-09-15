@@ -13,6 +13,6 @@ _putchar('i');
 _putchar('\n');
 }
 else
-return (c * -1);
+return (i * -1);
 }
   
