@@ -1,7 +1,0 @@
-#include "main.h"
-/**
- * int _islower(int c) - checks code in main.h
- * int _islower(int c) - scans lowercase characters
- *
- * Return: 0
- */
