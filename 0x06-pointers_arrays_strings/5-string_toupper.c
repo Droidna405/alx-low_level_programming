@@ -5,14 +5,14 @@
  * @s: string to be changed
  * Return: uppercase (s)
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
 int i = 0;
-while (str[i] i= '\0')
+while (s[i] != '\0')
 {
-if (str[i] >= 'a' && str[i] <= 'z')
-str[i] -= 32;
+if (s[i] >= 'a' && s[i] <= 'z')
+s[i] -= 32;
 i++;
 }
-return (str);
+return (s);
 }
