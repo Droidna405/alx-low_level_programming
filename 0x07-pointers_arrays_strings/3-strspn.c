@@ -20,6 +20,6 @@ break;
 }
 if (!accept[j])
 break;
-	}
-xreturn (i);
+}
+return (i);
 }
