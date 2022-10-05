@@ -9,14 +9,14 @@
 
 int len(char *str)
 {
-  int len = 0;
+int len = 0;
 
-  if (str != NULL)
-    {
-      while (str[len])
-	len++;
-    }
-  return (len);
+if (str != NULL)
+{
+while (str[len])
+len++;
+}
+return (len);
 }
 
 /**
