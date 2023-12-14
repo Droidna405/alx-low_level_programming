@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * This program prints using the function puts
+ * main - This is the entry point of the program
+ *
+ * Description: This program prints using the function puts
  *
  * Return: Always 0 (success)
  */
