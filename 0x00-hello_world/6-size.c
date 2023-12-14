@@ -10,8 +10,6 @@ int main(void)
 {
 char c;
 int i;
-long int li;
-long long int lli;
 float f;
 
 printf("Size of char: %lu byte\(s\)\n", sizeof(c));
