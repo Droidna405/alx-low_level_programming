@@ -10,8 +10,8 @@ int main(void)
 {
 char c;
 int i;
-//long int li;
-//long long int lli;
+long int li;
+long long int lli;
 float f;
 printf("Size of char: %zu byte\(s\)\n", sizeof(c));
 printf("Size of int: %zu byte\(s\)\n", sizeof(i));
