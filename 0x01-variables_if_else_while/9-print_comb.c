@@ -3,9 +3,9 @@
  * main - entry point of code
  *
  * Description: prints all possible combinations
- * 
+ *
  * Return: Always (0) for success
- */ 
+ */
 int main(void)
 {
 int i;
