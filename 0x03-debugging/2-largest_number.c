@@ -18,5 +18,5 @@ if (c > largest)
 {
 largest = c;
 }
-return largest;
+return (largest);
 }
