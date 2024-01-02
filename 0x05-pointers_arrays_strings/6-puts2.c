@@ -8,9 +8,9 @@ void puts2(char *str)
 int index = 0;
 while (str[index] != '\0')
 {
-_putchar(str[index]);
+printf(str[index]);
 index += 2;
 }
-_putchar('\n');
+printf('\n');
 }
 
