@@ -1,0 +1,13 @@
+#include "main.h
+/**
+ * _memset - function that fills memory with a constant byte
+ * @s: pointer to n memory area
+ * @b: constant byte
+ * @n: number of bytes
+ */
+char *_memset(char *s, char b, unsinged int n)
+{
+
+
+}
+
