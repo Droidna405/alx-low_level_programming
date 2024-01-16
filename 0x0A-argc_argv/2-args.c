@@ -16,9 +16,5 @@ for (i = 0; i < argc; i++)
 printf("%s\n", argv[i]);
 }
 }
-else
-{
-printf("No arguments provided.\n");
-}
 return (0);
 }
