@@ -13,8 +13,18 @@ if (argc > 1)
 int i;
 for (i = 0; i < argc; i++)
 {
-printf("%s\n", argv[i]);
+char *word = argv[i];
+while (*word != '\0')
+{
+putchar(*word);
+word++;
 }
+putchar('\n');
+}
+}
+else
+{
+printf("No arguments provided.\n");
 }
 return (0);
 }
