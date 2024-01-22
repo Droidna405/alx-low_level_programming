@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "main.h"
-#define UNUSED(x) (void)(x)
-int main(int argc, char* argv[])
+/**
+ * main - entry of program
+ * Return: 0 for succes
+ */
+int main(void)
 {
-UNUSED(argc);
-
-printf("%s", argv[0]);
+printf("%s\n", __FILE__);
 return (0);
 }
