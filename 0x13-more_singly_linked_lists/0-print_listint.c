@@ -4,7 +4,7 @@
 #include <stddef.h>
 /**
  * print_listint - function that prints all the elements of a listint_t
- * @listint_t: linked list
+ * linked list
  * @h: pointer to head
  * Return: Number of nodees
  */
