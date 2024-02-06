@@ -8,14 +8,17 @@
  */
 void free_listint2(listint_t **head)
 {
-listint_t *current;
-
-while (*head != NULL)
-{
-current = *head;
-*head = current->next;  /* Advance head to the next node */
-free(current);
+if (*head == NULL) {  /* Handles empty list */
+return;
 }
 
-*head = NULL;  /* Set head pointer to NULL after all nodes are freed */
+listint_t *current_node = *head;
+while (current_node != NULL)
+{
+listint_t *next_node = current_node->next;
+/* Stores next node before freeing */
+free(current_node); /* Free the current node */
+current_node = next_node; /* Move to the next node */
+}
+*head = NULL;  /* Set head to NULL after all nodes are freed */
 }
