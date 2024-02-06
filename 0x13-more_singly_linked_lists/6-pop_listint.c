@@ -11,7 +11,8 @@ int pop_listint(listint_t **head)
 {
 listint_t *temp;
 int head_data;
-if (*head == NULL) {  /* Check for empty list */
+if (*head == NULL)
+{  /* Check for empty list */
 return (0);
 }
 
