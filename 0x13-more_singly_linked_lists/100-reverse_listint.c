@@ -10,7 +10,7 @@ listint_t *reverse_listint(listint_t **head)
 {
 listint_t *prev = NULL;  /* Keeps track of the previous node */
 listint_t *current = *head;  /* Start with the first carriage */
-listint_t *next; 
+listint_t *next;
 
 while (current != NULL)
 {
