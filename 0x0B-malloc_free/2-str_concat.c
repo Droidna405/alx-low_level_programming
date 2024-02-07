@@ -12,13 +12,16 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-size_t len1, len2;
+  size_t len1, len2, total_len;
 char *new_str;
 
 len1 = s1 ? strlen(s1) : 0;  /* Handle null s1 */
 len2 = s2 ? strlen(s2) : 0;  /* Handle null s2 */
 
-new_str = malloc(len1 + len2 + 1); /* Allocates memory for concat string */
+total_len = len1 + len2 + 1;
+
+/* Allocate memory for the concatenated string */
+new_str = malloc(total_len);
 if (new_str == NULL)
 {
 return (NULL);  /* Handle allocation failure */
@@ -28,8 +31,10 @@ return (NULL);  /* Handle allocation failure */
 new_str[0] = '\0';
 
 /* Copy strings to the new memory */
-strcpy(new_str, s1);
-strcat(new_str, s2);
+strncpy(new_str, s1, len1);
+new_str[len1] = '\0';
+strncpy(new_str + len1, s2, len2);
+new_str[total_len - 1] = '\0';
 
 return (new_str);
 }
