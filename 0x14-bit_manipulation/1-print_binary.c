@@ -18,13 +18,13 @@ count = 0;
 
 while (mask > 0)
 {
-_putchar((n & mask) ? '1' : '0');
+putchar((n & mask) ? '1' : '0');
 mask >>= 1;
 count++;
 
 /* Add a space for readability every 4 bits, excluding 4 */
 if (count % 4 == 0 && mask > 0)
-_putchar(' ');
+putchar(' ');
 }
 }
 
