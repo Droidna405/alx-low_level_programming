@@ -11,10 +11,10 @@ int clear_bit(unsigned long int *n, unsigned int index)
 /* Check if the index is valid */
 if (index >= sizeof(unsigned long int) * 8)
 return (-1);
-/** Clear the bit at the given index by performing a
- * bitwise AND operation with the complement of 1 shifted
- * left by the index
- */
+/* Clear the bit at the given index by performing a */
+/* bitwise AND operation with the complement of 1 shifted */
+/* left by the index */
+
 *n = *n & ~(1UL << index);
 return (1);
 }
