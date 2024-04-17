@@ -11,7 +11,7 @@ unsigned long int i;
 hash_node_t *node;
 int comma_flag;
 
-comma_flag= 0;
+comma_flag = 0;
 if (ht == NULL)
 return;
 
