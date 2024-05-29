@@ -1,4 +1,3 @@
-.PHONY = all
 CC = gcc
 SRC := main.c school.c
 
