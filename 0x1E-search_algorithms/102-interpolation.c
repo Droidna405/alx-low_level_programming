@@ -18,7 +18,7 @@ size_t high = size - 1;
 size_t pos;
 double slope;
 
-if (array == NULL || size == 0)
+if (array == NULL)
 return (-1);
 
 while (low <= high && value >= array[low] && value <= array[high])
