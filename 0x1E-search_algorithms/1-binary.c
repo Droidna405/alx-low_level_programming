@@ -15,6 +15,8 @@ size_t high = size - 1;
 size_t mid;
 size_t i;
 
+if (array == NULL)
+return (-1);
 while (low <= high)
 {
 mid = low + (high - low) / 2;
